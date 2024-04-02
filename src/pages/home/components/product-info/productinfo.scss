@@ -1,0 +1,359 @@
+.product_info_container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 4%;
+    justify-content: center;
+    background-color: white;
+    // background-color: white; 
+    padding: 20px;
+
+    .product_info {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        gap: 5%;
+        border: 2px solid white;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 30;
+        background-color: #fff;
+
+        .product_info_img {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+
+            .img_show {
+                width: 100%;
+
+                .image-gallery {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                }
+
+                .main-image {
+                    img {
+                        width: 330px;
+                        height: 330px;
+                        transition: transform 0.2s ease;
+                    }
+                }
+
+                .thumbnail-images {
+                    display: flex;
+
+                    .thumbnail {
+                        width: 60px;
+                        height: 60px;
+                        margin-right: 10px;
+                        overflow: hidden;
+                        cursor: pointer;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            transition: transform 0.2s ease;
+                        }
+
+                        &:hover {
+                            border: 1px solid rgb(239, 102, 102);
+                            border-radius: 3px;
+
+                            img {
+                                transform: scale(1.1);
+                            }
+                        }
+                    }
+                }
+            }
+
+
+
+            .img_info {
+                margin-top: 20px;
+                width: 100%;
+
+                ul {
+                    list-style: none;
+                }
+            }
+        }
+
+        .info_detail {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+
+
+            .name {
+                h4 {
+                    font-size: 30px;
+                    color: red;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    margin-bottom: 0;
+                }
+            }
+
+            .detail {
+                button {
+                    display: inline-block;
+                    padding: 0.5em 1em;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    font-size: 1rem;
+                    text-decoration: none;
+                    color: #333;
+                    background-color: transparent;
+                    cursor: pointer;
+                    margin-bottom: 10px;
+                }
+
+                button:hover {
+                    background-color: #f5f5f5;
+                }
+
+                button:focus {
+                    outline: none;
+                    box-shadow: 0 0 0 2px #f5f5f5;
+                }
+
+                button:active {
+                    background-color: #e0e0e0;
+                }
+
+                h5 {
+                    font-size: 20px;
+                    line-height: 28px;
+                    font-weight: 700;
+                    color: #00B751
+                }
+            }
+
+            .checkout {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+
+                .voucher {
+                    width: 100%;
+                    display: flex;
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 20px;
+
+                    img {
+                        width: 100%;
+                        height: 100px;
+                        border-radius: 8px;
+                    }
+
+                }
+
+
+            }
+        }
+    }
+
+    .info {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+
+        .company {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid white;
+            padding: 10px;
+            padding-left: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+
+            img {
+                width: 50px;
+                height: 50px;
+            }
+
+            p {
+                margin: 0 !important;
+                margin: 0px;
+                padding: 0px;
+                border-style: none;
+                border-width: 1px;
+                border-color: unset;
+                opacity: 1;
+                color: inherit;
+                font-weight: 500;
+                text-decoration: unset;
+                font-size: 15px;
+                line-height: 24px;
+                overflow: hidden;
+                display: -webkit-box;
+            }
+
+            .css-1ptts6n {
+                margin: 0 !important;
+            }
+
+        }
+
+        .policy {
+            margin-top: 20px;
+            border: 1px solid white;
+            padding: 10px;
+            padding-left: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+
+            h5 {
+                font-size: 18px;
+            }
+
+            img {
+                width: 30px;
+                height: 30px;
+                margin-right: 5px;
+            }
+        }
+
+        .detail_product_info {
+            margin-top: 20px;
+            border: 1px solid white;
+            padding: 10px;
+            padding-left: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            height: 200px;
+
+            h5 {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.dashed {
+    width: 100%;
+    height: 40px;
+    /* Hoặc kích thước bạn muốn */
+    position: relative;
+}
+
+.dashed-line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed pink;
+}
+
+//////////////////////////
+.box-button {
+    button {
+        position: relative;
+        padding: 1em 1.8em;
+        outline: none;
+        border: 1px solid #303030;
+        background: #212121;
+        color: #ff0037;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 15px;
+        overflow: hidden;
+        transition: 0.2s;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    button:hover {
+        box-shadow: 0 0 10px #ff0048, 0 0 25px #ff0015, 0 0 50px #ff0048;
+        transition-delay: 0.6s;
+    }
+
+    button span {
+        position: absolute;
+    }
+
+    button span:nth-child(1) {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, #ff0048);
+    }
+
+    button:hover span:nth-child(1) {
+        left: 100%;
+        transition: 0.7s;
+    }
+
+    button span:nth-child(3) {
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, #ff0051);
+    }
+
+    button:hover span:nth-child(3) {
+        right: 100%;
+        transition: 0.7s;
+        transition-delay: 0.35s;
+    }
+
+    button span:nth-child(2) {
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg, transparent, #ff0033);
+    }
+
+    button:hover span:nth-child(2) {
+        top: 100%;
+        transition: 0.7s;
+        transition-delay: 0.17s;
+    }
+
+    button span:nth-child(4) {
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg, transparent, #ff004c);
+    }
+
+    button:hover span:nth-child(4) {
+        bottom: 100%;
+        transition: 0.7s;
+        transition-delay: 0.52s;
+    }
+
+    button:active {
+        background: #af0300;
+        background: linear-gradient(to top right, #af0046, #ff0055);
+        color: #bfbfbf;
+        box-shadow: 0 0 8px #ff003c, 0 0 8px #ff0055, 0 0 8px #ff004c;
+        transition: 0.1s;
+    }
+
+    button:active span:nth-child(1) span:nth-child(2) span:nth-child(2) span:nth-child(2) {
+        transition: none;
+        transition-delay: none;
+    }
+}
+
+.title-box {
+
+    list-style: none;
+}

@@ -1,0 +1,72 @@
+{
+    "navbar": {
+        "home": "   Home   ",
+        "news": "New Product",
+        "receipts": "Receipts",
+        "admin": "Admin"
+    },
+    "body": {
+        "product": "Featured Products"
+    },
+    "product": {
+        "more": "View More...",
+        "see": "Details..."
+    },
+    "footer": {
+        "follow": "Follow Us:",
+        "title": "HB specializes in providing and ordering genuine models worldwide. Receive search and purchase requests.",
+        "product": "Products",
+        "policybh": "Warranty Policy",
+        "policydt": "Return Policy",
+        "policyvc": "Shipping Policy",
+        "policybm": "Privacy Policy",
+        "contact": "CONTACT",
+        "connect": "CONNECT WITH GAMEHOBBY"
+    },
+    "productinfo": {
+        "box": "High-Quality Products",
+        "ship": "Nationwide Delivery",
+        "atm": "Free ATM card payment",
+        "mount": "Can be purchased in installments via bank card, see instructions",
+        "here": "here",
+        "add": "Add Cart",
+        "policy": "Sales Policy",
+        "ship1": "Free shipping for orders over 5 million",
+        "tick": "100% genuine commitment",
+        "infos": "Info Detail Products"
+    },
+    "receipt": {
+        "receipt": "RECEIPT",
+        "stt": "Order Number",
+        "ms": "Receipt Code",
+        "total": "Total Receipt",
+        "tt": "Status",
+        "pt": "Payment Method",
+        "shiper": "Payment on delivery",
+        "shiperzl": "Payment via Zalo",
+        "time": "Time",
+        "dt": "Order Details",
+        "cdtt": "Unpaid",
+        "cddt": "Paid",
+        "xt": "Show More!",
+        "st": "Status Order"
+    },
+    "cart": {
+        "info": "Your Cart",
+        "have": "You have",
+        "products": "products in your cart",
+        "infopr": "Product Information",
+        "price": "Unit Price",
+        "amount": "Quantity",
+        "total": "Total",
+        "chose": "Options",
+        "receipt": "Checkout",
+        "totals": "Total Order Value:",
+        "shiptotal": "Total Payment:",
+        "pt": "Payment Method",
+        "cd": "Place Order",
+        "tt": "Continue shopping",
+        "tb": "Total bill",
+        "empty": "Your cart is empty"
+    }
+}

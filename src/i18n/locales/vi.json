@@ -1,0 +1,72 @@
+{
+    "navbar": {
+        "home": "Trang chủ",
+        "news": "Hàng mới",
+        "receipts": "Đơn Hàng",
+        "admin": "Quản Trị"
+    },
+    "body": {
+        "product": "Sản phẩm nổi bật"
+    },
+    "product": {
+        "more": "xem thêm...",
+        "see": "chi tiết..."
+    },
+    "footer": {
+        "follow": "Theo dõi chúng tôi:",
+        "title": "HB chuyên cung cấp và nhận Order các dòng mô hình chính hãng trên thế giới. Nhận tìm kiếm và mua hàng theo yêu cầu.",
+        "product": "Sản phẩm",
+        "policybh": "Chính sách bảo hành",
+        "policydt": "Chính sách đổi trả",
+        "policyvc": "Chính sách vận chuyển",
+        "policybm": "Chính sách bảo mật",
+        "contact": "LIÊN HỆ",
+        "connect": "KẾT NỐI VỚI GAMEHOBBY"
+    },
+    "productinfo": {
+        "box": "Hàng chất luợng cao",
+        "ship": "Giao hàng toàn quốc",
+        "atm": "Miễn phí cà thẻ",
+        "mount": "Có thể mua trả góp qua thẻ ngân hàng, xem hướng dẫn",
+        "add": "Thêm vào giỏ hàng",
+        "here": "here",
+        "policy": "Chính sách bán hàng",
+        "ship1": "Miễn phí giao hàng cho đơn hàng từ 5 triệu",
+        "tick": "Cam kết hàng chính hãng 100%",
+        "infos": "Thông tin chi tiết sản phẩm"
+    },
+    "receipt": {
+        "receipt": "HÓA ĐƠN",
+        "stt": "Số thứ tự",
+        "ms": "Mã số hóa đơn",
+        "total": "Tổng đơn hàng",
+        "tt": "Tình trạng ",
+        "pt": "phương thức thanh toán",
+        "shiper": "thanh toán khi nhận hàng",
+        "shiperzl": "thanh toán bằng zalo",
+        "time": "Thời gian",
+        "dt": "Chi tiết đơn hàng",
+        "cdtt": "Chưa thanh toán",
+        "cddt": "Đã thanh toán",
+        "xt": "Xem thêm!",
+        "st": "Trạng thái"
+    },
+    "cart": {
+        "info": "Giỏ hàng của bạn",
+        "have": "Bạn đang có",
+        "products": "sản phẩm trong giỏ hàng",
+        "infopr": "Thông tin sản phẩm",
+        "price": "Đơn giá",
+        "amount": "Số lượng",
+        "total": "Tổng đơn",
+        "chose": "Tùy chọn",
+        "receipt": "Thành toán",
+        "totals": "Tổng giá trị đơn:",
+        "shiptotal": "Thành tiền:",
+        "pt": "phương thức thanh toán",
+        "cd": "Đặt Hàng",
+        "tt": "Tiếp tục mua hàng",
+        "tb": "Tổng bill",
+        "empty": "giỏ hàng của bạn đang trống"
+    }
+}
